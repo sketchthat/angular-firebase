@@ -3983,7 +3983,7 @@ var FirebaseExampleModule = (function () {
     FirebaseExampleModule.forRoot = function () {
         return {
             ngModule: FirebaseExampleModule,
-            providers: []
+            providers: [SampleService]
         };
     };
     return FirebaseExampleModule;

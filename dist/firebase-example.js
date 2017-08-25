@@ -3980,7 +3980,7 @@ class FirebaseExampleModule {
     static forRoot() {
         return {
             ngModule: FirebaseExampleModule,
-            providers: []
+            providers: [SampleService]
         };
     }
 }
